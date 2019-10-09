@@ -45,4 +45,4 @@ formDiv.style.border = '50px double brown';
 
 const button = document.querySelector('button');
 button.style.fontSize = '100px';
-button.style.transition = 'width 2s, height 4s';
+button.style.background = 'purple';
