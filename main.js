@@ -34,3 +34,7 @@ listedItems.style.fontSize = '35px';
 const p3 = document.querySelector('#p3');
 p3.style.fontSize = '40px';
 p3.style.color = 'pink';
+
+const form = document.querySelector('form');
+form.style.fontSize = '60px';
+form.style.color = 'red';
