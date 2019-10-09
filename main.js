@@ -23,18 +23,26 @@ div2.style.color = 'purple';
 const div3 = document.querySelector('#div3');
 div3.style.color = 'red';
 div3.style.fontSize = '75px';
+div3.style.border = '20px dotted blue';
 
 const div4 = document.querySelector('#div4');
 div4.style.color = 'orange';
 div4.style.fontSize = '120px';
+div4.style.border = '20px dashed pink';
 
-const listedItems = document.querySelector('li');
-listedItems.style.fontSize = '35px';
+const ul = document.querySelector('#items');
+ul.style.fontSize = '35px';
 
 const p3 = document.querySelector('#p3');
 p3.style.fontSize = '40px';
 p3.style.color = 'pink';
 
-const form = document.querySelector('form');
-form.style.fontSize = '60px';
-form.style.color = 'red';
+const newDiv = document.createElement('div');
+newDiv.id = 'formDiv';
+const formDiv = document.querySelector('form');
+formDiv.appendChild(newDiv);
+formDiv.style.border = '50px double brown';
+
+const button = document.querySelector('button');
+button.style.fontSize = '100px';
+button.style.transition = 'width 2s, height 4s';
