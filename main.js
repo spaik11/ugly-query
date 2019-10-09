@@ -28,5 +28,9 @@ const div4 = document.querySelector('#div4');
 div4.style.color = 'orange';
 div4.style.fontSize = '120px';
 
-const listedItems = document.querySelectorAll('li')
+const listedItems = document.querySelector('li');
 listedItems.style.fontSize = '35px';
+
+const p3 = document.querySelector('#p3');
+p3.style.fontSize = '40px';
+p3.style.color = 'pink';
